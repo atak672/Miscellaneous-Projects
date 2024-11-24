@@ -1,7 +1,8 @@
 package tests;
 import org.junit.jupiter.api.Test;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Optional;
 import java.util.Set;
 import sudoku.SudokuSolver;

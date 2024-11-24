@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.function.BiFunction;
 import java.util.function.Function;
 import java.util.function.Supplier;
 
@@ -51,13 +52,11 @@ public class GeneralFunctionalDemo {
             // Referential transparency is a fundamental concept in functional programming that promotes the use of pure
             // functions that only depend on their inputs to produce outputs. Here is another example of a referentially
             // transparent function in Java
-                @SuppressWarnings("unused")
                 Function<Integer, Integer> prod = x -> x * x;
                 // Could replace with an equal sign essentially due to no side effects
                 // i.e. for x = 2; ret = prod.apply(2) can be essentially replaced with ret = 4
 
             // Not Referentially transparent bc each input is different in its result
-                @SuppressWarnings("unused")
                 Supplier<Integer> randomInt = () -> (int) (Math.random() * 100);
 
 

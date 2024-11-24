@@ -123,10 +123,8 @@ public class SudokuVisualizer extends JFrame {
             boardNum = scanner.nextInt();
         } catch (InputMismatchException e) {
             System.out.println("Invalid input. Please enter an integer value.");
-            scanner.close();
             return; // terminate the program if input is invalid
         }
-        scanner.close();
 
 
         int[][] board_play;
