@@ -1,6 +1,6 @@
 # Introduction to AI Projects
 
-This repository contains my solutions to assignments from Duke University's Introduction to Artificial Intelligence course (COMPSCI 370D).
+This repository contains my solutions to assignments from Duke University's **Compsci 370: Introduction to Artificial Intelligence**.
 
 ## Projects Overview
 
