@@ -1,6 +1,6 @@
 # Sudoku Solver
 
-<img src="sudoku-solver-pic.png" alt="Sudoku Solver Screenshot" width="500">
+<img src="sudoku-picture.png" alt="Sudoku Solver Screenshot" width="500">
 
 This project demonstrates a Sudoku Solver application developed as part of a technical interview. The primary purpose of the project was to showcase **Java programming proficiency** and the use of **functional programming capabilities**.
 
